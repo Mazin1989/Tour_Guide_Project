@@ -1,0 +1,29 @@
+<resources>
+    <!-- application name -->
+    <string name="app_name">Tour Guide Project</string>
+
+    <!-- string values used for the tab navigation bar -->
+    <string name="history">History</string>
+    <string name="restaurants">Food</string>
+    <string name="attractions">Fun</string>
+    <string name="events">Events</string>
+
+    <!-- string values used for names -->
+    <string name="mumtaz_mahal">Mumtaz Mahal (Indian)</string>
+    <string name="golden_oryx">Golden Oryx (Chinese)</string>
+    <string name="marah_land">Marah Land</string>
+    <string name="trampo_oman">Trampo Oman</string>
+    <string name="qaboos_mosque">Sultan Qaboos Mosque</string>
+    <string name="mutrah_corn">Mutrah Corniche</string>
+    <string name="jabrin_fort">Jabrin Fort</string>
+    <string name="marathon">Marathon (every year)</string>
+
+    <!-- string values used for location -->
+    <string name="muscat">Muscat</string>
+    <string name="nizwa">Nizwa</string>
+    <string name="qurum_muscat">Qurum, Muscat</string>
+    <string name="ghala_muscat">Ghala, Muscat</string>
+    <string name="wave_muscat">The Wave, Muscat</string>
+
+
+</resources>
