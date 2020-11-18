@@ -39,8 +39,8 @@ public class RestaurantsFragment extends Fragment {
         //create an ArrayList of List objects
         final ArrayList<List> list = new ArrayList<List>();
 
-        list.add(new List(getString(R.string.mumtaz_mahal), getString(R.string.muscat), "12 pm - 11 pm", R.drawable.mumtaz_mahal));
-        list.add(new List(getString(R.string.golden_oryx), getString(R.string.muscat), "12 pm - 12 am", R.drawable.golden_oryx));
+        list.add(new List(getString(R.string.mumtaz_mahal), getString(R.string.muscat), getString(R.string.time_12pm_11pm), R.drawable.mumtaz_mahal));
+        list.add(new List(getString(R.string.golden_oryx), getString(R.string.muscat), getString(R.string.time_12pm_12am), R.drawable.golden_oryx));
 
         ListAdapter adapter = new ListAdapter(getActivity(), list);
 

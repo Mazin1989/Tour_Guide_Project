@@ -39,8 +39,8 @@ public class AttractionsFragment extends Fragment {
         //create an ArrayList of List objects
         final ArrayList<List> list = new ArrayList<List>();
 
-        list.add(new List(getString(R.string.marah_land), getString(R.string.qurum_muscat), "10 am - 10 pm", R.drawable.marah_land));
-        list.add(new List(getString(R.string.trampo_oman), getString(R.string.ghala_muscat), "10 am - 10 pm", R.drawable.trampo));
+        list.add(new List(getString(R.string.marah_land), getString(R.string.qurum_muscat), getString(R.string.time_10am_10pm), R.drawable.marah_land));
+        list.add(new List(getString(R.string.trampo_oman), getString(R.string.ghala_muscat), getString(R.string.time_10am_10pm), R.drawable.trampo));
 
         ListAdapter adapter = new ListAdapter(getActivity(), list);
 

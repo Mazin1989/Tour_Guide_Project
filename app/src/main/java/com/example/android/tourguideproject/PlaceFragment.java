@@ -14,10 +14,10 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 
-public class EventsFragment extends Fragment {
+public class PlaceFragment extends Fragment {
 
 
-    public EventsFragment() {
+    public PlaceFragment() {
         // Required empty public constructor
     }
 
@@ -39,7 +39,9 @@ public class EventsFragment extends Fragment {
         //create an ArrayList of List objects
         final ArrayList<List> list = new ArrayList<List>();
 
-        list.add(new List(getString(R.string.marathon), getString(R.string.wave_muscat), getString(R.string.time_6am_12pm), R.drawable.marathon));
+        list.add(new List(getString(R.string.qaboos_mosque), getString(R.string.muscat), getString(R.string.time_10am_12pm), R.drawable.qaboos_mosque));
+        list.add(new List(getString(R.string.mutrah_corn), getString(R.string.muscat), getString(R.string.time_10am_9pm), R.drawable.muttrah_corn));
+        list.add(new List(getString(R.string.jabrin_fort), getString(R.string.nizwa), getString(R.string.time_10am_5pm), R.drawable.jabrin_fort));
 
 
         ListAdapter adapter = new ListAdapter(getActivity(), list);
@@ -56,4 +58,5 @@ public class EventsFragment extends Fragment {
     public void onStop() {
         super.onStop();
     }
+
 }

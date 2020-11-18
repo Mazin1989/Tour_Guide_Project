@@ -3,7 +3,7 @@
     <string name="app_name">Tour Guide Project</string>
 
     <!-- string values used for the tab navigation bar -->
-    <string name="history">History</string>
+    <string name="place">Place</string>
     <string name="restaurants">Food</string>
     <string name="attractions">Fun</string>
     <string name="events">Events</string>
@@ -24,6 +24,17 @@
     <string name="qurum_muscat">Qurum, Muscat</string>
     <string name="ghala_muscat">Ghala, Muscat</string>
     <string name="wave_muscat">The Wave, Muscat</string>
+
+    <!-- string values used for time -->
+    <string name="time_6am_12pm">6am - 12pm</string>
+    <string name="time_10am_12pm">10am - 12pm</string>
+    <string name="time_10am_10pm">10am - 10pm</string>
+    <string name="time_10am_9pm">10am - 9pm</string>
+    <string name="time_10am_5pm">10am - 5pm</string>
+    <string name="time_12pm_11pm">12pm - 11pm</string>
+    <string name="time_12pm_12am">12pm - 12am</string>
+
+
 
 
 </resources>

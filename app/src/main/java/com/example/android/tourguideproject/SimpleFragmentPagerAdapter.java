@@ -21,7 +21,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new HistoryFragment();
+            return new PlaceFragment();
         } else if (position == 1) {
             return new RestaurantsFragment();
         } else if (position == 2) {
@@ -41,7 +41,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
         // Generate title based on item position
         if (position == 0) {
-            return mContext.getString(R.string.history);
+            return mContext.getString(R.string.place);
         } else if (position == 1) {
             return mContext.getString(R.string.restaurants);
         } else if (position == 2) {
